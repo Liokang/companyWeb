@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
   
-  res.render("index");
+  res.send("hello");
 });
 
 app.listen(PORT, function(err){
