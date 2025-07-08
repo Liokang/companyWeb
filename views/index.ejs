@@ -33,23 +33,7 @@
 
 
 
-<% projects.forEach(function(project) { %>
-    <section class="home" id="home">
-        <div class="content">
-            <h1><%= project.title %></h1>
-            <p><%= project.description %></p>
 
-            <a href="<%= project.link %>" class="home-btn">Github Link</a>
-        </div>
-
-        <div class="image">
-            <img class="swap-image" id="img1" src="<%= project.image[0] %>"
-  onmouseover="this.src='<%= project.image[2] %>'"
-  onmouseout="this.src='<%= project.image[0] %>'"
-
-        </div>
-    </section>
- <% }); %>
 
 
 
